@@ -5,10 +5,11 @@ class Person
   def initialize(attributes=nil)
     if attributes
       attributes.each { |key, value| 
-    self.send ("#{key}=", value) }
+    self.send("#{key}=", value) }
     end
   end
   
   
   
 end
+
